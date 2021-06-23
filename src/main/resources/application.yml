@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: feedbackPub
+nats.addresses:
+- nats://localhost:4222
+cassandra:
+  default:
+    clusterName: '"myCluster"'
+    contactPoint: '"localhost"'
+    port: 9042
+    maxSchemaAgreementWaitSeconds: 20
+    ssl: true
