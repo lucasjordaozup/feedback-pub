@@ -1,12 +1,10 @@
 micronaut:
+  server:
+     port: 8081
   application:
     name: feedbackPub
-nats.addresses:
-- nats://localhost:4222
-cassandra:
-  default:
-    clusterName: '"myCluster"'
-    contactPoint: '"localhost"'
-    port: 9042
-    maxSchemaAgreementWaitSeconds: 20
-    ssl: true
+
+nats:
+  addresses: ${nats_host:localhost}
+  username: ${nats_username:guest}
+  password: ${nats_password:guest}
