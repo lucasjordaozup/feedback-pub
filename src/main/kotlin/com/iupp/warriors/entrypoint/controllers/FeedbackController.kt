@@ -5,7 +5,9 @@ import com.iupp.warriors.core.ports.FeedbackServicePort
 import com.iupp.warriors.entrypoint.dtos.FeedbackRequest
 import io.micronaut.http.HttpResponse
 import io.micronaut.http.annotation.*
+import io.micronaut.http.uri.UriBuilder
 import org.slf4j.LoggerFactory
+import java.net.URI
 import java.util.*
 
 @Controller("/feedbacks")
@@ -27,7 +29,7 @@ class FeedbackController(private val service: FeedbackServicePort) {
     }
 
     @Delete("/{id}")
-    fun update(@PathVariable id: UUID): HttpResponse<Any>{
+    fun delete(@PathVariable id: UUID): HttpResponse<Any>{
         logger.info("Recebendo um feedback para ser enviado ao sub para ser deletado: id = $id")
         logger.info("Feedback convertido ${ConverteFeedback.feedbackRequestToDeleteFeedback(id)}")
         service.delete(ConverteFeedback.feedbackRequestToDeleteFeedback(id))

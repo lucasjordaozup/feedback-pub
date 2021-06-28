@@ -5,9 +5,9 @@ import com.iupp.warriors.core.models.Feedback
 import com.iupp.warriors.core.ports.FeedbackServicePort
 import com.iupp.warriors.core.ports.NatsServicePort
 import com.iupp.warriors.entrypoint.dtos.FeedbackRequest
-import com.iupp.warriors.infrastracture.models.Events
-import com.iupp.warriors.infrastracture.models.EventsInformation
-import com.iupp.warriors.infrastracture.models.FeedbackEvent
+import com.iupp.warriors.infrastructure.models.Events
+import com.iupp.warriors.infrastructure.models.EventsInformation
+import com.iupp.warriors.infrastructure.models.FeedbackEvent
 import javax.inject.Singleton
 
 @Singleton

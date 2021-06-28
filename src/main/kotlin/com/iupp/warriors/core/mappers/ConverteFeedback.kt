@@ -2,7 +2,7 @@ package com.iupp.warriors.core.mappers
 
 import com.iupp.warriors.core.models.Feedback
 import com.iupp.warriors.entrypoint.dtos.FeedbackRequest
-import com.iupp.warriors.infrastracture.models.FeedbackEvent
+import com.iupp.warriors.infrastructure.models.FeedbackEvent
 import java.util.*
 
 class ConverteFeedback {
