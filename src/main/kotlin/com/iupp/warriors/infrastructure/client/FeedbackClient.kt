@@ -1,6 +1,6 @@
-package com.iupp.warriors.infrastructure.clients
+package com.iupp.warriors.infrastructure.client
 
-import com.iupp.warriors.infrastructure.models.EventsInformation
+import com.iupp.warriors.infrastructure.model.EventsInformation
 import io.micronaut.nats.annotation.NatsClient
 import io.micronaut.nats.annotation.Subject
 

@@ -1,13 +1,12 @@
-package com.iupp.warriors.core.services
+package com.iupp.warriors.core.service
 
-import com.iupp.warriors.core.mappers.ConverteFeedback
-import com.iupp.warriors.core.models.Feedback
+import com.iupp.warriors.core.mapper.ConverteFeedback
+import com.iupp.warriors.core.model.Feedback
 import com.iupp.warriors.core.ports.FeedbackServicePort
 import com.iupp.warriors.core.ports.NatsServicePort
-import com.iupp.warriors.entrypoint.dtos.FeedbackRequest
-import com.iupp.warriors.infrastructure.models.Events
-import com.iupp.warriors.infrastructure.models.EventsInformation
-import com.iupp.warriors.infrastructure.models.FeedbackEvent
+import com.iupp.warriors.infrastructure.model.Events
+import com.iupp.warriors.infrastructure.model.EventsInformation
+import com.iupp.warriors.infrastructure.model.FeedbackEvent
 import javax.inject.Singleton
 
 @Singleton

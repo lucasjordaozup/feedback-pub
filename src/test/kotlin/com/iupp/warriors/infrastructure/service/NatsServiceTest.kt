@@ -1,9 +1,9 @@
-package com.iupp.warriors.infrastructure.services
+package com.iupp.warriors.infrastructure.service
 
-import com.iupp.warriors.infrastructure.clients.FeedbackClient
-import com.iupp.warriors.infrastructure.models.Events
-import com.iupp.warriors.infrastructure.models.EventsInformation
-import com.iupp.warriors.infrastructure.models.FeedbackEvent
+import com.iupp.warriors.infrastructure.client.FeedbackClient
+import com.iupp.warriors.infrastructure.model.Events
+import com.iupp.warriors.infrastructure.model.EventsInformation
+import com.iupp.warriors.infrastructure.model.FeedbackEvent
 import io.kotest.core.spec.style.AnnotationSpec
 import io.kotest.matchers.shouldBe
 import io.micronaut.test.extensions.kotest.annotation.MicronautTest

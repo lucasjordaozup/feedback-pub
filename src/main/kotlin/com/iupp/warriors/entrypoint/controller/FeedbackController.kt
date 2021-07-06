@@ -1,13 +1,11 @@
-package com.iupp.warriors.entrypoint.controllers
+package com.iupp.warriors.entrypoint.controller
 
-import com.iupp.warriors.core.mappers.ConverteFeedback
+import com.iupp.warriors.core.mapper.ConverteFeedback
 import com.iupp.warriors.core.ports.FeedbackServicePort
 import com.iupp.warriors.entrypoint.dtos.FeedbackRequest
 import io.micronaut.http.HttpResponse
 import io.micronaut.http.annotation.*
-import io.micronaut.http.uri.UriBuilder
 import org.slf4j.LoggerFactory
-import java.net.URI
 import java.util.*
 
 @Controller("/feedbacks")

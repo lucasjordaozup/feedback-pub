@@ -1,6 +1,6 @@
-package com.iupp.warriors.entrypoint.controllers
+package com.iupp.warriors.entrypoint.controller
 
-import com.iupp.warriors.core.mappers.ConverteFeedback
+import com.iupp.warriors.core.mapper.ConverteFeedback
 import com.iupp.warriors.core.ports.FeedbackServicePort
 import com.iupp.warriors.entrypoint.dtos.FeedbackRequest
 import io.kotest.core.spec.style.AnnotationSpec

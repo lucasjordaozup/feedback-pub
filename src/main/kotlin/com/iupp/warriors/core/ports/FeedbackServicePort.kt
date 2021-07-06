@@ -1,8 +1,7 @@
 package com.iupp.warriors.core.ports
 
-import com.iupp.warriors.core.models.Feedback
-import com.iupp.warriors.entrypoint.dtos.FeedbackRequest
-import com.iupp.warriors.infrastructure.models.FeedbackEvent
+import com.iupp.warriors.core.model.Feedback
+import com.iupp.warriors.infrastructure.model.FeedbackEvent
 
 interface FeedbackServicePort {
     fun save(request: Feedback): FeedbackEvent

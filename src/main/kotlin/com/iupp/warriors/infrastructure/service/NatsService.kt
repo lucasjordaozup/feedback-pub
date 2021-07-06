@@ -1,9 +1,9 @@
-package com.iupp.warriors.infrastructure.services
+package com.iupp.warriors.infrastructure.service
 
 import com.iupp.warriors.core.ports.NatsServicePort
-import com.iupp.warriors.infrastructure.clients.FeedbackClient
-import com.iupp.warriors.infrastructure.models.EventsInformation
-import com.iupp.warriors.infrastructure.models.FeedbackEvent
+import com.iupp.warriors.infrastructure.client.FeedbackClient
+import com.iupp.warriors.infrastructure.model.EventsInformation
+import com.iupp.warriors.infrastructure.model.FeedbackEvent
 import org.slf4j.LoggerFactory
 import javax.inject.Singleton
 

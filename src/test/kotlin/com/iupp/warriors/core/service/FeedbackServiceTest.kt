@@ -1,7 +1,7 @@
-package com.iupp.warriors.core.services
+package com.iupp.warriors.core.service
 
-import com.iupp.warriors.core.mappers.ConverteFeedback
-import com.iupp.warriors.core.models.Feedback
+import com.iupp.warriors.core.mapper.ConverteFeedback
+import com.iupp.warriors.core.model.Feedback
 import com.iupp.warriors.core.ports.NatsServicePort
 import io.kotest.core.spec.style.AnnotationSpec
 import io.kotest.matchers.shouldBe
