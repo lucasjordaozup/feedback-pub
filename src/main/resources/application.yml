@@ -4,6 +4,13 @@ micronaut:
   application:
     name: feedbackPub
 
+endpoints:
+  health:
+    enabled: true
+    sensitive: false
+    url:
+      enabled: true
+
 nats:
   addresses: ${nats_host:localhost}
   username: ${nats_username:guest}
