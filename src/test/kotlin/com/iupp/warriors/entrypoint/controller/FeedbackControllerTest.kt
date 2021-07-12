@@ -2,7 +2,7 @@ package com.iupp.warriors.entrypoint.controller
 
 import com.iupp.warriors.core.mapper.ConverteFeedback
 import com.iupp.warriors.core.ports.FeedbackServicePort
-import com.iupp.warriors.entrypoint.dtos.FeedbackRequest
+import com.iupp.warriors.entrypoint.dto.FeedbackRequest
 import io.kotest.core.spec.style.AnnotationSpec
 import io.kotest.matchers.shouldBe
 import io.micronaut.http.HttpStatus

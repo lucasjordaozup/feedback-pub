@@ -2,7 +2,7 @@ package com.iupp.warriors.entrypoint.controller
 
 import com.iupp.warriors.core.mapper.ConverteFeedback
 import com.iupp.warriors.core.ports.FeedbackServicePort
-import com.iupp.warriors.entrypoint.dtos.FeedbackRequest
+import com.iupp.warriors.entrypoint.dto.FeedbackRequest
 import io.micronaut.http.HttpResponse
 import io.micronaut.http.annotation.*
 import org.slf4j.LoggerFactory

@@ -1,7 +1,7 @@
 package com.iupp.warriors.core.mapper
 
 import com.iupp.warriors.core.model.Feedback
-import com.iupp.warriors.entrypoint.dtos.FeedbackRequest
+import com.iupp.warriors.entrypoint.dto.FeedbackRequest
 import com.iupp.warriors.infrastructure.model.FeedbackEvent
 import java.util.*
 
